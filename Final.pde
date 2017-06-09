@@ -25,7 +25,7 @@ par = new ArrayList<part>();
 }
 
 void draw(){
-background(255);
+background(0);
 box2d.step();
 
 if (mousePressed) {
@@ -46,7 +46,7 @@ if (mousePressed) {
 liga.display();
 objetivo.display();
 
-fill(0);
+fill(255);
 text("Presiona el Mouse.",10,height-10);
 
 }
