@@ -33,7 +33,6 @@ if (mousePressed) {
     par.add(p);
   }
 
-  // Display all the boxes
   for (part b: par) {
     b.display();
   }
