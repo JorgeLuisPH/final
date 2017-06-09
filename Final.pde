@@ -46,4 +46,7 @@ if (mousePressed) {
 liga.display();
 objetivo.display();
 
+fill(0);
+text("Presiona el Mouse.",10,height-10);
+
 }
