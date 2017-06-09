@@ -17,7 +17,7 @@ sd.setAsBox(box2dW, box2dH);
 
 BodyDef bd = new BodyDef();
 bd.type = BodyType.STATIC;
-bd.position.set(box2d.coordPixelsToWorld(x,y));
+bd.position.set(box2d.coordPixelsToWorld(150,300));
 b = box2d.createBody(bd);
     
 b.createFixture(sd,1);
