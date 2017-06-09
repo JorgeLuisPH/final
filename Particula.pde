@@ -32,7 +32,7 @@ ellipseMode(CENTER);
 pushMatrix();
 translate(pos.x,pos.y);
 rotate(-a);
-fill(175);
+fill(random(175,0));
 stroke(0);
 ellipse(0,0,w,h);
 popMatrix();
@@ -57,7 +57,6 @@ bd.position.set(box2d.coordPixelsToWorld(center));
 
 body = box2d.createBody(bd);
 body.createFixture(fd);
-//body.setMassFromShapes();
 
 body.setLinearVelocity(new Vec2(random(-5, 5), random(2, 5)));
 body.setAngularVelocity(random(-5, 5));
